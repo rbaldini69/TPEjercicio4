@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+
+<h1 style="text-align: center; font-size: 15;text-decoration-color: #B40431"> venta de lamparas </h1>
+<body style="background-color: lightblue">
+<div style="border-style: solid;border-color: orange;margin-left: 28%; margin-right: 40%">
+
+<form action="calculo.php" method="GET">
+<br>
+	<div style="background-color: #FBEFEF">
+	
+	<br> <input style="font-size: 16px;height: 40px;width: 200px;margin-left: 18%; border-radius:5px" type="double" value="<?php echo $cantidad;?>"name="cantidad"></br>
+	<p><br></p>
+	<select style="font-size: 16px;height: 40px;width: 200px;margin-left: 18%; border-radius:5px" name="marca" id="marca" value="<?php echo $marca;?>"
+	><option> ArgentinaLuz </option>
+							<option > FelipeLamparas </option>
+							<option > Jeluz </option>
+							<option > HazIluminacion </option>
+							<option > Osram </option>
+			<br></br>					 
+	<br>
+	<br> <input style="font-size: 16px;height: 40px;width: 200px;margin-left: 18%; border-radius:5px" type="double" value="<?php echo $Apagar; ?> " name="Pfinal" placeholder="Precio con descuento" readonly></br>
+	<p><br></p>
+
+
+	
+
+	</div>
+
+
+<br><input style="height: 40px;width: 200px; border-radius:5px; margin-left: 18%;margin-right: 30%" type="submit" name="calculoPrecio" value="Calcular Precio"> </br>
+
+
+		<?php
+		echo $mensaje;
+		?>
+
+
+
+</div>
+
+
+<br>
+</div>
+
+</form>
+
+</body>
+
+</html>
+
+</form>
+
+</body>
+
+</html>
